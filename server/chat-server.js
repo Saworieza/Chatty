@@ -1,3 +1,4 @@
+// if you change the url in SocketService. change here to reflect and on the index file
 var io = require('socket.io')(3000);
 
 io.on('connection', function(socket){
